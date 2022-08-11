@@ -73,6 +73,7 @@ public class Vet extends Person {
     }
 
     public void addSpecialty(Specialty specialty) {
+        System.out.println("new update");
         getSpecialtiesInternal().add(specialty);
     }
 
